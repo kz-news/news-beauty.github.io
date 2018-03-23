@@ -1,0 +1,13 @@
+var timerId = setTimeout(function footsale() {
+function firstshow() {
+  $('.ftrsale').fadeIn(300);
+}
+setTimeout(firstshow, 10000);
+	timerId = setTimeout(footsale, 20000);
+}, 300);
+
+$(function() {
+		$('.cls').click(function(){
+		  $('.ftrsale').fadeOut(300);
+		})
+	});
